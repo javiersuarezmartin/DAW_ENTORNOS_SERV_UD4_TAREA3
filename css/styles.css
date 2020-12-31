@@ -1,0 +1,22 @@
+body {
+    background-color: #333;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container-equipos {
+    margin: 50px;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr;
+}
+
+.equipo {
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #FFF;
+    text-align: center;
+}
+
+.equipo h1 {
+    color: rgb(0, 160, 255);
+}
